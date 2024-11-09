@@ -46,7 +46,7 @@ Example setting:
   :group 'tsc
   :type 'directory)
 
-(defcustom tsc-dyn-get-from '(:github :compilation)
+(defcustom tsc-dyn-get-from '(:compilation)
   "Where the dynamic module binary should come from, in order of priority.
 
 For pre-built binaries, it attempts to download the requested version.
